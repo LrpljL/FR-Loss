@@ -19,4 +19,12 @@ L-softmax加强分类条件，强制让对应类别的W和x夹角增加到原来
 ![image](https://pic1.zhimg.com/v2-9175b2b838ef9082ba40983a4fc368f8_r.jpg)
 ![image](https://github.com/LrpljL/FR-Loss/blob/master/Sphere/epoch%3D79.jpg)
 ![image](https://github.com/LrpljL/FR-Loss/blob/master/Sphere/cos_epoch%3D79.jpg)
-
+## center loss
+为每个类别学习一个中心，并将每个类别的所有特征向量拉向对应类别中心，联合softmax一起使用。
+![image](https://pic4.zhimg.com/v2-eaaf34827c44c4c45085647962144a2f_r.jpg)
+![image](https://github.com/LrpljL/FR-Loss/blob/master/Center/epoch%3D79.jpg)
+![image](https://github.com/LrpljL/FR-Loss/blob/master/Center/cos_epoch%3D79.jpg)
+## insight face
+![image](https://pic3.zhimg.com/v2-24382d5345b7e442602f3be895e454fa_r.jpg)
+![image](https://github.com/LrpljL/FR-Loss/blob/master/ArcSoft/epoch%3D79.jpg)
+![image](https://github.com/LrpljL/FR-Loss/blob/master/ArcSoft/cos_epoch%3D79.jpg)
